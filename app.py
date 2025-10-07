@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 import math
 
+
 pipe = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
 
 st.title('Car Price Prediction App')
